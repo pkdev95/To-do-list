@@ -111,8 +111,7 @@ h2{
     background-color:  #5dfc6e;
     border-radius: 1em;
     color: black;
-    margin-right: 0.5em;
-    
+    position: fixed;
 }
 
 
