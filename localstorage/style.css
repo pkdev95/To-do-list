@@ -67,6 +67,7 @@ button{
 .nt{
     margin-left: 2em;
     border-radius: 1em;
+    width:55%;
 }
 
 .vl{
@@ -112,8 +113,9 @@ h2{
     border-radius: 1em;
     color: black;
     position: fixed;
-
+    right: 1px;
     
+}
 
 
 .svt:hover{
@@ -169,3 +171,7 @@ h2{
 
 
 }
+
+
+
+
