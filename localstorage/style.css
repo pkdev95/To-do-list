@@ -1,0 +1,171 @@
+.princ{
+    text-align: center;
+}
+
+body{
+  
+    background-image:url('https://img.freepik.com/fotos-premium/area-de-transferencia-do-negocio-no-fundo-branco-no-estilo-dos-desenhos-animados-ai-gerada_547674-3360.jpg?w=996');
+    
+}
+
+.vl{
+    margin-left: 2em;
+    background-color: #df4d32;
+}
+
+.edt{
+    margin-left: 0.5em;
+    background-color: gray;
+}
+
+.lin{
+    width: 40%;
+}
+
+#pc{
+    margin-bottom: 1em;
+    height: 1.5em;
+    border-radius: 1em;
+}
+
+button{
+    border-radius: 1em;
+    cursor: pointer;
+    height: 2.0em;
+    color: white;
+    font-style: italic;
+}
+
+.si{
+    box-shadow:  0 0 5px #5dfc6e, 
+    0 0 25px  #5dfc6e;
+    background-color:  #5dfc6e;
+    border-radius: 1em;
+    color: black;
+    
+}
+
+.si:hover {
+
+    box-shadow: 0 0 5px  #5dfc6e,
+    0 0 25px  #5dfc6e, 0 0 50px  #5dfc6e,
+    0 0 100px  #5dfc6e, 0 0 200px  #5dfc6e;
+}
+
+.itlist{
+
+    list-style: none;
+    padding-left: 1em;
+    font-size: 1.3em;
+    font-style: italic;
+    margin-right: 4em;
+  
+}
+
+
+
+.nt{
+    margin-left: 2em;
+    border-radius: 1em;
+}
+
+.vl{
+    margin-left: -4em;
+}
+
+.modalSave{
+    display: none;
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    border: 2px solid black;
+}
+
+.formModalSave{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 17em;
+    height: 9em;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 1em;
+}
+
+h2{
+    padding-left: 2.5em;
+}
+
+.nt{
+    margin-bottom: 2em;
+    height: 1.5em;
+    margin-right: 0.3em;
+}
+
+.svt{
+    box-shadow:  0 0 5px #5dfc6e, 
+    0 0 25px  #5dfc6e;
+    background-color:  #5dfc6e;
+    border-radius: 1em;
+    color: black;
+    margin-right: 0.5em;
+    
+}
+
+
+.svt:hover{
+
+    box-shadow: 0 0 5px  #5dfc6e,
+    0 0 25px  #5dfc6e, 0 0 50px  #5dfc6e,
+    0 0 100px  #5dfc6e, 0 0 200px  #5dfc6e;
+
+}
+
+.cm{
+    position: absolute;
+    right: 0;
+    background-color: #5dfc6e;
+    border-radius: 1em;
+    width:1.5em;
+    height: 1.5em;
+    padding-left: 0.7em;
+    padding-top: 0.3em;
+    cursor: pointer;
+}
+
+
+
+.bts{
+    box-shadow:  0 0 5px #5dfc6e, 
+    0 0 25px  #5dfc6e;
+    background-color:  #5dfc6e;
+    border-radius: 1em;
+    color: black;
+    margin-top: 0.5em;
+    margin-left: 0.3em;
+    
+}
+
+.bts:hover{
+
+    box-shadow: 0 0 5px  #5dfc6e,
+    0 0 25px  #5dfc6e, 0 0 50px  #5dfc6e,
+    0 0 100px  #5dfc6e, 0 0 200px  #5dfc6e;
+
+}
+
+.tfn{
+    margin-bottom: 1em;
+    height: 1.5em;
+    border-radius: 1em;
+}
+
+.formEdit{
+
+    display: none;
+
+
+}
