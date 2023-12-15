@@ -171,6 +171,16 @@ h2{
 
 }
 
+@media screen and(max-width:768) {
+
+    .ll{
+        color: white;
+    }
+
+
+
+}
+
 
 
 
