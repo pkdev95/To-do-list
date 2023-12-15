@@ -42,7 +42,7 @@ button{
     background-color:  #5dfc6e;
     border-radius: 1em;
     color: black;
-    
+    height: 2em;
 }
 
 .si:hover {
