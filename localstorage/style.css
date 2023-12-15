@@ -176,12 +176,9 @@ h2{
 }
 
 
-
-
-
 @media only screen and (max-width:768px) {
 
-    .itlist{
+   #pk > .itlist{
         color: white;
         background-color: rgba(0,0,0,0.5); 
         border-radius: 1em;
@@ -190,18 +187,16 @@ h2{
         text-align: center;
         padding-right: 0.8em;
         margin-bottom: 0.5em;
-    }
-     
-   .svt{
-        position: fixed;
-        right: 1.3em;
-        height: 1.72em;
-    }
-     
-    
 
+}
 
 
 }
+
+
+
+
+
+
 
 
