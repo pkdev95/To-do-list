@@ -59,6 +59,7 @@ button{
     font-size: 1.3em;
     font-style: italic;
     margin-right: 4em;
+
   
 }
 
@@ -67,12 +68,14 @@ button{
 .nt{
     margin-left: 2em;
     border-radius: 1em;
-    width:55%;
 }
 
 .vl{
     margin-left: -4em;
 }
+
+
+
 
 .modalSave{
     display: none;
@@ -102,8 +105,6 @@ h2{
 
 .nt{
     margin-bottom: 2em;
-    height: 1.5em;
-    margin-right: 0.3em;
 }
 
 .svt{
@@ -112,8 +113,8 @@ h2{
     background-color:  #5dfc6e;
     border-radius: 1em;
     color: black;
-    position: fixed;
-    right: 2.5em;      
+    margin-right: 0.5em;
+    
 }
 
 
@@ -171,16 +172,30 @@ h2{
 
 }
 
-@media screen and(max-width:768) {
 
-    .ll{
+
+
+
+@media only screen and (max-width:768px) {
+
+    .itlist{
         color: white;
+        background-color: rgba(0,0,0,0.5); 
+        width: 35%;
+        margin-left: 2.3em;
+        border-radius: 1em;
+        padding-right: 1em;
+    }
+     
+
+    .vl{
+    margin-left: -5em;
+    margin-top: 1em;
     }
 
 
 
+
 }
-
-
 
 
