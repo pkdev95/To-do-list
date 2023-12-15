@@ -12,9 +12,9 @@
 <body>
     <div class="princ">
         <h1>Lista de tarefas</h1>
-        <form>
+        <form method="get" action="">
             <input type="text" name="item" placeholder="Tarefa" id="pc" />
-            <button class="si" onclick = salvarItens(); type="button">Salvar</button>
+            <input type="submit" onclick="salvarItens();" class="si"  value="salvar"/>
         </form>
         <ul id="pk">
         </ul>
