@@ -109,17 +109,17 @@ h2{
     margin-bottom: 2em;
 }
 
-.svt{
+   .svt{
     box-shadow:  0 0 5px #5dfc6e, 
     0 0 25px  #5dfc6e;
     background-color:  #5dfc6e;
     border-radius: 1em;
     color: black;
     position: fixed;
-    right: 1.3em;
-    height: 1.75em;
-    
+    right: 0.5em;
+    height: 1.72em;  
 }
+
 
 .svt:hover{
 
