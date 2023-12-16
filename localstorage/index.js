@@ -3,10 +3,21 @@ const zerarItem = () => {
   item.value = "";
 }
 
+const getOldValue = (indice) => {
+
+  const editValue = document.getElementById(`plm-${indice}`).innerText;
+  const valorSub = document.getElementById(`trfe-${indice}`).value = editValue;
+
+}
+
+
 const openModal = (itemIndex) => {
   const modal = document.getElementById(`fnt-${itemIndex}`);
   modal.style.display = "block";
+  getOldValue(itemIndex);
+
 }
+
 
 const closeModal = (itemIndex) => {
   const modal = document.getElementById(`fnt-${itemIndex}`);
