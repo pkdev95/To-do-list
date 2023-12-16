@@ -57,6 +57,7 @@ const renderizar = (newItens) => {
     if (newItem) {
       const ll = document.createElement('li');
       ll.className = 'itlist';
+      ll.id = `plm-${itemIndex}`;
       const btt = document.createElement('button');
       const edit = document.createElement('button');
       edit.innerText = 'Editar';
